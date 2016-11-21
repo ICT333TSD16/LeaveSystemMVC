@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ * Author: M Hamza Rahimy
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -125,8 +128,7 @@ namespace LeaveSystemMVC.Controllers
                     }
                 }
 
-                    return RedirectToAction("Index", "Home");
-                
+
             }
 
             ModelState.AddModelError("", "Invalid UserID or Password");
